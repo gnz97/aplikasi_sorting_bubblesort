@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class File {
+public class Bubble {
     
     static void bubbleSort(int[] arr){
         int n = arr.length;
@@ -30,14 +30,14 @@ public class File {
             arr[x] = Integer.parseInt(nilaiString);
         }
         
-        System.out.println("Array Sebelum Diurutkan");
+        System.out.println("Data Sebelum Diurutkan");
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
         }
         System.out.println();
 
         bubbleSort(arr);
-        System.out.println("Array Setelah Diurutkan");
+        System.out.println("Data Setelah Diurutkan");
         for(int i=0; i< arr.length;i++){
             System.out.print(arr[i]+" ");
         }
